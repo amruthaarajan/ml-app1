@@ -3,14 +3,12 @@
 * [Flask Restful Documentation]()
 * [HTTPie Documentation](https://httpie.org/doc)
 * [Data Source: Kaggle](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data)
+* [Reference: Towards Data Science](https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166)
 ___
 
 ## Procedure
 1. Start a virtual environment and install requirements
-3. Build sentiment classifier
-4. Write `app.py` which is the API application that will be deployed
-5. Update requirements.txt as you write the code
-6. Test the API
+2. Run the API
 
 
 ## File Structure
@@ -25,7 +23,7 @@ ___
       * models: directory that contains the pickled model files
 
 
-## Testing the API
+## Running the API
 1. Run the Flask API locally for testing. Go to directory with `app.py`.
 
 ```bash
