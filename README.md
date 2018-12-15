@@ -36,7 +36,7 @@ python app.py
 2. In a new terminal window, use HTTPie to make a GET request at the URL of the API.
 
 ```bash
-http http://127.0.0.1:5000/ query=="That was pretty entertaining"
+http http://127.0.0.1:5000/ query=="That was great"
 ```
 
 
@@ -46,8 +46,8 @@ http http://127.0.0.1:5000/ query=="That was pretty entertaining"
 HTTP/1.0 200 OK
 Content-Length: 57
 Content-Type: application/json
-Date: Tue, 21 Aug 2018 19:04:04 GMT
-Server: Werkzeug/0.14.1 Python/3.6.3
+Date: Tue, 03 Dec 2018 11:14:24 GMT
+Server: Werkzeug/0.14.1 Python/3.6.6
 
 {
     "confidence": 0.78,
